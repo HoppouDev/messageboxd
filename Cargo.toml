@@ -1,0 +1,10 @@
+[package]
+name = "messageboxd"
+version = "0.1.0"
+edition = "2024"
+license = "GPL-3.0-only"
+authors = ["HoppouDev"]
+description = "A script-based message box daemon for VRChat"
+keywords = ["vrchat", "daemon"]
+
+[dependencies]
