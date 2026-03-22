@@ -4,7 +4,11 @@ version = "0.1.0"
 edition = "2024"
 license = "GPL-3.0-only"
 authors = ["HoppouDev"]
-description = "A script-based message box daemon for VRChat"
+description = "A message box daemon for VRChat"
 keywords = ["vrchat", "daemon"]
 
 [dependencies]
+
+[dependencies.pyo3]
+version = "0.28.2"
+features = ["abi3-py38"]
